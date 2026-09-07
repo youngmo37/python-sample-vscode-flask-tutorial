@@ -1,0 +1,6 @@
+python -m venv .env
+source .env/Scripts/activate
+pip install --upgrade pip
+pip install -r ./requirements.txt
+export FLASK_APP=hello_app.webapp
+flask run
